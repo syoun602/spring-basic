@@ -34,3 +34,8 @@
 ![img.png](images/UserDomain.png)
 - 실제 서버에 올라왔을 때, 객체(메모리)간의 참조에 대한 다이어그램
 - ex) 클라이언트가 실제 참조하는 주소 값에 있는 인스턴스는 회원 서비스(MemberServiceImpl).. 등
+
+## 회원 도메인 개발
+> 참고: HashMap 은 동시성 이슈가 발생할 수 있다. 이런 경우 ConcurrentHashMap 을 사용해야 한다.
+
+## 회원 도메인 실행과 테스트
